@@ -120,6 +120,7 @@ public class Main {
 
         if(gamer[idx].r == exit.r && gamer[idx].c == exit.c) {
             gameover[idx] = true;
+            gameoverCnt++;
         }
 
     }
